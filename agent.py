@@ -70,7 +70,7 @@ class Agent:
         - done: whether the episode is complete (True or False)
         """
 
-        #Q-learning (sarsamax) oe Expected SARSA
+        #Q-learning (sarsamax) or Expected SARSA
         previous_Q = self.Q[state][action]
         #previous_Q1 = self.Q1[state][action]
         #previous_Q2 = self.Q2[state][action]
