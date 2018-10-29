@@ -29,3 +29,7 @@ Your assignment is to modify the `agents.py` file to improve the agent's perform
 Once you have modified the function, you need only run `python main.py` to test your new agent.
 
 OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task as getting average return of 9.7 over 100 consecutive trials.  
+
+### Discussion
+To solve this enviroment I used SarsaMax. I found it gets the best result.
+I also tried Expected Sarsa Max
