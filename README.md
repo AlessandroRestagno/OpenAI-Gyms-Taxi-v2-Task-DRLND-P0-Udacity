@@ -31,5 +31,5 @@ Once you have modified the function, you need only run `python main.py` to test 
 OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task as getting average return of 9.7 over 100 consecutive trials.  
 
 ### Discussion
-To solve this enviroment I used SarsaMax. I found it gets the best result.
-I also tried Expected Sarsa Max
+To solve this enviroment I used Expected SARSA. I found it gets the best result.
+I also tried SARSAMax, but it was performing a little bit poorer. I then tried Double Expected SARSA to see, it there was a significant improvement, but that didn't happen. The result was close to what I got using Expected SARSA and, so, I just stuck with that.
